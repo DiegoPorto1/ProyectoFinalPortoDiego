@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autopartes pepito</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="container">
+    <div class="nav">
+
+        <div>
+            <h1>logo</h1>
+        </div>
+
+        <div>
+            <ul>
+                <li class="submenu">
+                    <img src="img/cart.png" alt="">
+                    <div id="carrito" class="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                         <a href="" id="eliminar-compra" class="boton-x">Eliminar compra</a>
+                         <p id="total"></p>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>        
+    </header>
+    <div class="clima" id="clima">
+        <h3> ¿Queres saber como esta el clima donde vas a acampar?</h3>
+        <form id="form">
+            <label for="nombre">Ciudad:</label>
+            <input type="text" id="nombre" name="nombre">
+            <button type="submit" id="boton">Preguntar clima</button>
+        </form>
+        <p id="weather-description"></p>
+        <p id="temperatura"></p>
+    </div>
+    <div id="lista-productos"class="container">
+        <h1> Autopartes en descuento</h1>
+    <div class="cartas">
+        <div class="carta-1">
+            <div><img src="img/carpa.jpg" alt=""></div>
+            <div class="sub-carta">
+                <h2>Carpa 3 personas</h2>
+                <p>Esencial para acampar al aire libre y protegerte de los elementos.</p>
+                <p class="precio">$5000</p>
+                <a href="#" class="button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+            </div>
+        </div>
+        <div class="carta-2">
+            <div><img src="img/saco de dormir.jpg" alt=""></div>
+            <div class="sub-carta">
+                <h2>Saco de dormir</h2>
+                <p>Mantendrán abrigado durante la noche. Los sacos de dormir también vienen en diferentes tamaños y temperaturas, por lo que debes asegurarte de elegir uno que se adapte a tus necesidades.</p>
+                <p class="precio">$3500</p>
+                <a href="#" class="button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+            </div>
+        </div>
+        <div class="carta-3">
+            <div><img src="img/colchon.jpg" alt=""></div>
+            <div class="sub-carta">
+                <h2>Colchón inflable</h2>
+                <p>Para mayor comodidad, puede usar un colchón inflable. Vienen en diferentes tamaños y grosores</p>
+                <p class="precio">$300</p>
+                <a href="#" class="button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+            </div>
+        </div>
+        <div class="carta-4">
+            <div><img src="img/linterna.jfif" alt=""></div>
+            <div class="sub-carta">
+                <h2>Linterna</h2>
+                <p>Una herramienta importante para iluminar tu campamento durante la noche. Hay varios tipos de linternas disponibles, desde linternas con baterías recargables hasta linternas solares. </p>
+                <p class="precio">$3000</p>
+                <a href="#" class="button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+            </div>
+        </div>
+        <div class="carta-5">
+            <div><img src="img/mochila.jpg" alt=""></div>
+            <div class="sub-carta">
+                <h2>Mochila 70L</h2>
+                <p> Si planeas hacer senderismo o acampar por varios días, necesitarás una mochila duradera para transportar tus cosas.</p>
+                <p class="precio">$50000</p>
+                <a href="#" class="button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+            </div>
+        </div>
+        <div class="carta-6">
+            <div><img src="img/botiquin.jpg" alt=""></div>
+            <div class="sub-carta">
+                <h2>Botiquín de primeros auxilios</h2>
+                <p>Es importante estar preparado para emergencias médicas en el campamento.</p>
+                <p class="precio">$30500</p>
+                <a href="#" class="button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <script src="js/app2.js"></script>
+</body>
+</html>
